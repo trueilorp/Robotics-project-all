@@ -15,7 +15,6 @@ The `~/metadrive-ros-integration` directory contains the following main files an
 | `train_model.py` | Python file to start **model training**. |
 | `config.json` | Config file to define model and env configuration. |
 | `start_project_config.bash` | Script to initialize project dependencies. |
-
 | `bridges` | Contains the ROS bridges. |
 | `callback` | Contains the callback of training. |
 | `config` | Contains the two script used by *start_project_config.bash*. |
@@ -53,7 +52,7 @@ The following scripts are used for training and evaluating the driving model:
     Please make sure that the model loaded parameters match the parameters in the *config.json* file.
     
 
-## Startup Instructions: The Three Terminals
+## Startup Instructions:
 
 The project is designed to be started on **three separate and distinct terminals** by executing the commands in order:
 
